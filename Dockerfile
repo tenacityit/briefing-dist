@@ -6,7 +6,7 @@ WORKDIR /app
 RUN cd /app; npm install --production
 
 ENV BRIEFING_STUN_URL=stun:turn.tenacity.it:3478
-ENV BRIEFING_TURN_URL=turns:turn.tenacity.it:5349
+ENV BRIEFING_TURN_URL=turn:turn.tenacity.it:3478
 ENV BRIEFING_TURN_USER=briefing
 ENV BRIEFING_TURN_PASSWORD=05ad164f898435377e9b00605ab48c4b072ba6acee37f02e76b69ce2baac3182
 
